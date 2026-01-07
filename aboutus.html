@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+<style>
+      body{
+        color: darkblue;
+      }
+        *{
+            margin: 0;
+            padding: 0;
+      }
+        header{
+            background-color: rgb(3, 203, 253);
+            display: flex;
+      }
+        header h1{
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            width: 40%;
+      }
+        header nav{
+            width: 85%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+      }
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+      }
+        header img{
+            width: 50px;
+            height: 50px;
+           border-radius: 50%;
+           margin: 10px;
+      }
+        article,aside,.card,details{
+            background-color: rgb(146, 213, 255);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            box-shadow: -3px 5px 7px 5px rgb(124, 193, 249);  /*right down blur size color*/
+      }
+        section{
+            display: flex;
+      }
+        article{
+            width: 70%;
+      }
+        aside{
+            width: 25%;
+      }
+      aside,ol{
+        list-style-type:none;
+      }
+      .card{
+        width: 40%;
+      }
+      footer{
+        background-color: rgb(149, 213, 255);
+        text-align: center;
+        font-size: small;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+      }
+      details{
+        border-left: 5px solid rgb(255, 255, 255);
+      }
+      a:hover{
+        color: rgb(255, 255, 255);
+      }
+      article:hover aside:hover, .card:hover{
+        box-shadow: 3px 5px 5px 3px rgb(255, 255, 255);
+        transform: scale(1.02);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG/Image of.png" alt="logo">
+        <h1>About us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+            <section>
+                <figure class="card">
+                   <img src="IMG/image (3).jpg" alt="Kelvin" width="100%">
+                   <figcaption>Kaung Tay Za Tun
+                    (2nd webpage coder)
+                   </figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/Guy.webp" alt="spk" width="100%">
+                   <figcaption>Sai Phyo Khan
+                    (pictrue finder)
+                   </figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/Image (4).jpg" alt="" width="100%">
+                   <figcaption>Piticho
+                    (fish picture finder)
+                   </figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/image (6).png" alt="Clown Fish" width="100%">
+                   <figcaption>Rayn
+                    (1st page coder)
+                  </figcaption>
+                </figure>
+              <figure class="card">
+                  <img src="IMG/Media (2).jpg" alt="Bluetang" width="100%">
+                  <figcaption>Shwe htate htar oo
+                  (helper)
+                  </figcaption>
+        </section>
+    </main>
+  <footer>
+        <p>Copyright &copy; 2025 | All Right Reserved</p>
+  </footer>

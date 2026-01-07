@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+<style>
+      *{
+            margin: 0;
+            padding: 0;
+      }
+        header{
+            background-color: rgb(3, 203, 253);
+            display: flex;
+      }
+        header h1{
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            width: 40%;
+      }
+        header nav{
+            width: 85%;
+            text-align: right;
+            padding: 10px;
+            margin-top: 20px;
+      }
+        nav a{
+            text-decoration: none;
+            padding: 20px;
+            color: rgb(0, 0, 0);
+      }
+        header img{
+            width: 50px;
+            height: 50px;
+           border-radius: 50%;
+           margin: 10px;
+      }
+        article,aside,.card,details{
+            background-color: rgb(146, 213, 255);
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            box-shadow: -3px 5px 7px 5px rgb(124, 193, 249); /*right down blur size color*/
+      }
+        section{
+            display: flex;
+            flex-wrap: wrap;
+      }
+        article{
+            width: 70%;
+      }
+        aside{
+            width: 25%;
+      }
+      aside,ol{
+        list-style-type:none;
+      }
+      .card{
+        width: 18%; 
+      }
+      footer{
+        background-color: rgb(149, 213, 255);
+        text-align: center;
+        font-size: small;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+      }
+      details{
+        border-left: 5px solid rgb(255, 255, 255);
+      }
+      a:hover{
+        color: rgb(255, 255, 255);
+      }
+      article:hover, aside:hover, .card:hover{
+        box-shadow: 3px 5px 5px 3px rgb(255, 255, 255);
+        transform: scale(1.02);
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMG/Image of.png" alt="logo">
+        <h1>Oceanic Fins</h1>
+        <nav>
+            <a href="aboutus.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>About Fishes</h1>
+                <p>Fish are aquatic vertebrates that have lived on Earth for more than 500 million years, making them one of the oldest and most diverse groups of animals. They are found in nearly every type of water environment, from the deepest oceans to small mountain streams, and they play a vital role in maintaining the balance of aquatic ecosystems. Most fish breathe through gills, have fins for movement, and are covered in scales that protect their bodies, while their streamlined shapes help them swim efficiently. They are generally cold-blooded, meaning their body temperature changes with the water around them. Scientists classify fish into three main groups: jawless fish, cartilaginous fish such as sharks and rays, and bony fish, which make up the largest group and include familiar species like salmon, tuna, and goldfish. Beyond their biological importance, fish are also essential to humans as a major source of food, livelihood through fishing industries, and cultural symbols of prosperity and life in many traditions. Their incredible diversity, ranging from tiny species only a few millimeters long to giant whale sharks, shows how well they have adapted to different environments, making fish one of the most remarkable and valuable groups of animals on our planet.</p>
+            </article>
+            <aside>
+                <h1>Announcement</h1>
+                <ol>
+                    <li>Fishes</li>
+                    <li>Acessories</li>
+                    <li>Prices</li>
+                </ol>
+            </aside>
+            </section>
+            <section>
+                <figure class="card">
+                   <img src="IMG/guppy 1.jpeg" alt="Guppy" width="100%">
+                   <figcaption>Guppy</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/gourami 1.jpeg" alt="Gourami" width="100%">
+                   <figcaption>Gourami</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/goldfish 1.webp" alt="Gold Fish" width="100%">
+                   <figcaption>Gold Fish</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/clown fish 1.jpeg" alt="Clown Fish" width="100%">
+                   <figcaption>Clown Fish</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/bluetang.webp" width="100%">
+                   <figcaption>Bluetang</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/flower horn 1.webp" alt="Flower Horn" width="100%">
+                   <figcaption>Flower Horn</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/angelfish 1.webp" alt="Angel Fish" width="100%">
+                   <figcaption>Angel Fish</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/butterflyfish 1.jpeg" alt="Butterfly Fish" width="100%">
+                   <figcaption>Butterfly Fish</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/discus 1.jpeg" alt="Discus" width="100%">
+                   <figcaption>Discus</figcaption>
+                </figure>
+                <figure class="card">
+                   <img src="IMG/arorana.jpeg" alt="Arorana" width="100%">
+                   <figcaption>Arorana</figcaption>
+                </figure>
+        </section>
+        <details>
+            <summary>Click to see more!!</summary>
+            <p>You can buy fish and fish acessories at Parminkorsi shop!</p>
+        </details>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 | All Right Reserved</p>
+    </footer>
